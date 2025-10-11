@@ -17,5 +17,6 @@ def split_documents(docs):
             "chunk_index": i,
             "length": len(chunk.page_content),
         })
-    logger.info(f"📑 Split into {len(chunks)} chunks")
+    logger.info(f"Split into {len(chunks)} chunks")
     return chunks
+
