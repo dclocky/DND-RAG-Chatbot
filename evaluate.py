@@ -100,4 +100,5 @@ def log_metrics_to_csv(metrics: dict, strategy_name: str, filename: str = "eval_
             writer.writeheader()
         writer.writerow(metrics_row)
 
-    logger.info(f"✅ Metrics logged to {filename}")
+
+    logger.info(f"Metrics logged to {filename}")
